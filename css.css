@@ -1,0 +1,33 @@
+.container{
+    background-color: #0475ba;
+    font-family: sans-serif
+    ;
+    height: 72px;
+    display: flex;
+    padding-left: 10px;
+    color: whitesmoke;  
+}
+h3{
+    margin-top: 25px;
+}
+ul{
+    display:flex;
+}
+li{
+    padding: 5px;
+    list-style-type:  none;
+    margin-top: 5px;
+}
+a{
+    color: whitesmoke!important;
+    text-decoration: none;
+}
+.profile{
+    background-color: rgb(255, 255, 255);
+    font-family:sans-serif;
+    height: 200px;
+
+img{
+    border-radius: 50%;
+}
+    
