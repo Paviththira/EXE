@@ -1,33 +1,165 @@
 .container{
-    background-color: #0475ba;
-    font-family: sans-serif
-    ;
+    margin: 10px;
+}
+.font-poppins{
+    font-family: poppins;
+}
+
+nav{
+    background-color:#0475ba;
     height: 72px;
     display: flex;
-    padding-left: 10px;
-    color: whitesmoke;  
+    padding-left: 15px;
+    color: white;
 }
-h3{
-    margin-top: 25px;
-}
-ul{
-    display:flex;
-}
-li{
-    padding: 5px;
-    list-style-type:  none;
-    margin-top: 5px;
-}
-a{
-    color: whitesmoke!important;
-    text-decoration: none;
-}
-.profile{
-    background-color: rgb(255, 255, 255);
-    font-family:sans-serif;
-    height: 200px;
 
-img{
-    border-radius: 50%;
+.nav-ul{
+    display: flex;
+}
+
+nav ul li {
+    display: flex;
+    padding-left: 15px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.profile-section{
+    height: 150px;
+    display: flex;
+    padding-top: 20px ;
+    margin: auto;
+    width: 600px;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  nav h1{
+      font-size: 14px;
+  }
+  .nav-ul {
+      display: none;
+    }
+    .padding-left-300{
+        padding-left: 120px!important;
+    }
+    .profile-section {
+      display: block;
+      flex-direction: column;
+      height: 250px;
+      padding-left: 30%;
+
+    }
+    .profile-name p {
+      color: #0475ba;
+      font-size: 12px;
+    }
+  
+    .profile-image img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .profile-name h1 {
+      color: #0f1011;font-size: 14px;
+    }
+  .presentation-section{
+    height: 250px;
+  }
+  .padding-left-150{
+    padding-left: 50px;
+  }
 }
     
+
+.profile-name h1{
+    color: black;
+    padding-right: 50px;
+}
+
+.profile-name p{
+    color: #0475ba;
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.profile-image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%; 
+}
+
+.presentation-section{
+background-color: #0475ba;
+margin-top: 20px;
+padding-left: 20px;
+color: white;
+height: 250px;
+}
+
+.presentation h2{
+    padding-top: 15px;
+}
+
+.exeperience-text{
+    display: flex;
+    
+}
+
+.experience-section h2 {
+    color: #0475ba;
+}
+
+.width-400{
+  width: 400px;
+}
+
+.padding-left-150 {
+    padding-left: 150px;
+}
+
+.padding-left-300 {
+    padding-left: 300px;
+  }
+
+  .formation-section {
+    background-color: #0475ba;
+    padding: 20px;
+    color: white;
+    margin-top: 25px;
+  }
+
+  .passions-section {
+    padding: 20px;
+  }
+  
+  .passions-section h2 {
+    color: #0475ba;
+  }
+
+  footer {
+    background-color: #0475ba;
+    padding: 20px;
+    display: flex;
+    height: 80px;
+  }
+  footer a {
+    color: white;
+    margin: 10px;
+  }
+  
+  .social-media img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .social-media {
+    padding-left: 200px;
+  }
+  
